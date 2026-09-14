@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>4 ORD Gate Dashboard</title>
+
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            background: black;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            width: 100vw;
+            height: 100vh;
+        }
+
+        iframe {
+            width: 200%;
+            height: 200%;
+            border: none;
+            
+            transform: scale(0.5);
+            transform-origin: top left;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="grid">
+        <iframe src="https://ord-ws-stage.visionairfids.com/?secret=CON_G_G73_AATEST"></iframe>
+        
+        <iframe src="https://ord-ws-stage.visionairfids.com/?secret=CON_G_G69_AATEST"></iframe>
+
+        <iframe src="https://ord-ws-stage.visionairfids.com/?secret=CON_G_G74_UATEST"></iframe>
+
+        <iframe src="https://ord-ws-stage.visionairfids.com/?secret=CON_G_G72_ASTEST"></iframe>
+
+    </div>
+</body>
+</html>
